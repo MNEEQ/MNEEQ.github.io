@@ -5,17 +5,26 @@ function FindProxyForURL(url, host) {
 
 	// Список доменов для проксирования
 	var domains = [
-		"m.youtube.com",
-		"youtube.com",
-		"googlevideo.com",
-		"googleusercontent.com",
-		"youtube-nocookie.com",
-		"ytimg.com",
-		"ytimg.l.googleusercontent.com",
-		"gstatic.com",
-		"play.google.com",
+		"ggpht.com",
 		"googleads.g.doubleclick.net",
-		"ggpht.com"
+		"googleusercontent.com",
+		"googlevideo.com",
+		"gstatic.com",
+		"gvt1.com",
+		"m.youtube.com",
+		"play.google.com",
+		"wide-youtube.l.google.com",
+		"youtu.be",
+		"youtube-nocookie.com",
+		"youtube-ui.l.google.com",
+		"youtube.com",
+		"youtube.googleapis.com",
+		"youtubeembeddedplayer.googleapis.com",
+		"youtubei.googleapis.com",
+		"yt-video-upload.l.google.com",
+		"yt.be",
+		"ytimg.com",
+		"ytimg.l.googleusercontent.com"
 	];
 
 	// Проверка домена и проксирование
