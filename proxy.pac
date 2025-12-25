@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 	// Укажите IP-адрес и порт вашего прокси-сервера
-	var proxy = "PROXY 94.232.47.37:65491";
+	var proxy = "PROXY 185.69.223.36:59741";
 	var direct = "DIRECT";
 
 	// Список доменов для проксирования
